@@ -1,12 +1,12 @@
 # Primitive Ignition: Crafting
 
-Minecraft 1.21.11 + Fabric add-on.
+Minecraft 1.21.11 + Fabric add-on for Survivalist Essentials.
 
-## Scope
-This project is intended to add only one new item, Primitive Flint, and its crafting recipe. It does not change furnace behavior; that belongs to the separate Realistic Ignition mod.
+## Included
+- Registers one new item: `primitive_ignition_crafting:primitive_flint`.
+- Adds it to the Tools creative tab.
+- Recipe ingredients use the verified Survivalist Essentials registry IDs `survivalistessentials:plant_fiber` and `survivalistessentials:plant_string`, plus vanilla flint.
+- Does not change furnace behavior. That belongs to the separate Realistic Ignition project.
 
-## Dependency integration status
-The recipe must use the exact registry IDs for Survivalist Essentials' grass fiber and grass rope. Those IDs have not yet been verified against the selected 1.21.11 build, so the final recipe is intentionally not included yet rather than shipping a guessed, broken recipe.
-
-## Build status
-Initial project scaffold only; not yet compiled or tested in Minecraft.
+## Current status
+The item registration is implemented in source. The shaped recipe and texture/model resources are being added. This project has not yet been compiled or tested in Minecraft; do not treat it as a verified working JAR.
