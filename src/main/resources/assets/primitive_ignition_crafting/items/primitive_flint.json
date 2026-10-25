@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "primitive_ignition_crafting:item/primitive_flint"
+  }
+}
