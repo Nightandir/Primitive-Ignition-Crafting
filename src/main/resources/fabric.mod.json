@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "primitive_ignition_crafting",
+  "version": "${version}",
+  "name": "Primitive Ignition: Crafting",
+  "description": "Adds the primitive ignition item and its recipe; no ignition mechanics.",
+  "authors": [
+    "Nightandir"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.nightandir.primitiveignitioncrafting.PrimitiveIgnitionCrafting"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
