@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " FI",
+    " S "
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "I": {
+      "item": "survivalistessentials:plant_fiber"
+    },
+    "S": {
+      "item": "survivalistessentials:plant_string"
+    }
+  },
+  "result": {
+    "id": "primitive_ignition_crafting:primitive_flint",
+    "count": 1
+  }
+}
